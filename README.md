@@ -3,7 +3,7 @@
 Renders images/video to the terminal using `ffmpeg` -> raw RGBA -> unicode half-blocks (▀) with 24-bit color.
 
 ![screenshot](img/screenshot.png)
-> Actual screenshot of an image rendered to the terminal
+> Screenshot of an image rendered to the terminal
 
 ## Features
 - Supports LuaJIT
