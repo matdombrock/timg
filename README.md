@@ -4,6 +4,7 @@ Renders images/video to the terminal using `ffmpeg` -> raw RGBA -> Unicode half-
 
 ![screenshot](img/screenshot.png)
 > Screenshot of an image rendered to the terminal
+> 
 > Image credit [craftyglitch](https://www.deviantart.com/craftyglitch/art/Dragon-Pixel-art-926569066)
 
 ## Features
