@@ -30,7 +30,7 @@ lua timg.lua <input-file-or--> [width_cols] [fps] [mode]
 ```
 
 Arguments:
-```sh
+```
 <input-file-or-> : path to input image or video file, or '-' to read from stdin
 [width_cols]     : optional target width in character columns (default: terminal width)
 [fps]            : optional target frames per second for video input (default: 15)
@@ -48,7 +48,7 @@ Example:
 ```sh
 lua timg.lua image.png
 lua timg.lua video.mp4 80 16 -i
-lua timg.lua -                 # read input from stdin (no probing available; will fall back to terminal-height behavior)
+lua timg.lua - # read input from stdin (no probing available; will fall back to terminal-height behavior)
 ```
 
 ## Neovim
