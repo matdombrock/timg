@@ -1,6 +1,6 @@
 # Timg
 
-Renders images/video to the terminal using `ffmpeg` -> raw RGBA -> unicode half-blocks (▀) with 24-bit color.
+Renders images/video to the terminal using `ffmpeg` -> raw RGBA -> Unicode half-blocks (▀) with 24-bit color.
 
 ![screenshot](img/screenshot.png)
 > Screenshot of an image rendered to the terminal
@@ -15,7 +15,7 @@ Renders images/video to the terminal using `ffmpeg` -> raw RGBA -> unicode half-
 - Neovim integration
 
 > [!TIP] 
-> This also proivides a Neovim plugin to display images/videos in a floating terminal using the `Timg ...` command.
+> This also provides a Neovim plugin to display images/videos in a floating terminal using the `Timg ...` command.
 
 ## Requires
 - `ffmpeg`
@@ -61,7 +61,7 @@ To use it:
 2. Edit `timgnvim.lua` to ensure the path to `timg.lua` is correct.
 3. Edit your `init.lua` file to require `timgnvim`. 
 
-You should know be able to use the `:Timg ...` command which takes the exact same paramters as the `timg.lua` script.
+You should now be able to use the `:Timg ...` command which takes the exact same parameters as the `timg.lua` script.
 
 > [!NOTE]  
 > Its not easily possible to render something like this directly in a Neovim buffer, so we use a terminal window as a workaround.
