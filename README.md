@@ -2,7 +2,7 @@
 
 Renders images/video to the terminal using `ffmpeg` -> raw RGBA -> Unicode half-blocks (▀) with 24-bit color.
 
-![screenshot](img/screenshot.png)
+![screenshot](doc/screenshot.png)
 > Screenshot of an image rendered to the terminal
 > 
 > Image credit [craftyglitch](https://www.deviantart.com/craftyglitch/art/Dragon-Pixel-art-926569066)
